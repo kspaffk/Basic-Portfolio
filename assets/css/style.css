@@ -1,0 +1,39 @@
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+#main-header {
+    background-color: #303b61;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+
+#navbar {
+    background-color: white;
+    color: black;
+}
+
+#navbar ul {
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a:link {
+    color: black;
+    text-decoration: none;
+    padding-right: 4px;
+    padding-left: 30px;
+}
+
+#navbar a:hover {
+    color: blue;
+}
+
+.container {
+    margin-left: 20px;
+}
