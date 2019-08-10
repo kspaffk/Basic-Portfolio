@@ -10,43 +10,46 @@
     </head>
     <body>
         <header id="mainheader">
-                <div id="mynameheader">
-                    <h1>
-                        Kent Spafford
-                    </h1>
-                </div>
-                <nav id="navbar">
-                    <ul>
-                        <li>
-                            <a href="./index.html">About</a>
-                        </li>
-                        <li>
-                            <a href="./portfolio.html">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="./contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-            <div class="content">
-                <div class="mainbody">
-                    <p>
-                        <h2>
-                            Contact
-                        </h2>
-                        <hr color="gray" width="100%">
-                    </p>
-                    <p>
-                        <form>
-                            Name:<br><input type="text" name="full-name" placeholder="John Smith"><br>
-                            Email:<br><input type="text" name="email" placeholder="someone@email.com"><br>
-                            Message:<br><textarea rows="7" cols="50"></textarea>
-                            <br><input class="submitbutton" type="submit" value="Submit">
-                        </form>
-                    </p>
-                </div>
+            <div id="mynameheader">
+                <h1>
+                    Kent Spafford
+                </h1>
             </div>
+            <nav id="navbar">
+                <ul>
+                    <li>
+                        <a href="./index.html">About</a>
+                    </li>
+                    <li>
+                        <a href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <div class="mainbody">
+                <p>
+                    <h2>
+                        Contact
+                    </h2>
+                    <hr color="gray" width="100%">
+                </p>
+                <p>
+                    <form>
+                        <label for="full-name">Name:</label><br>
+                        <input type="text" name="full-name" placeholder="John Smith" id="full-name"><br>
+                        <label for="email">Email:</label>
+                        <br><input type="text" name="email" placeholder="someone@email.com" id="email"><br>
+                        <label for="message">Message:</label>
+                        <br><textarea name="message" rows="7" cols="50" id="message"></textarea>
+                        <br><input class="submitbutton" type="submit" value="Submit">
+                    </form>
+                </p>
+            </div>
+        </div>
         <footer class="footer">
             <div class="center">
                 Copyright &copy;
